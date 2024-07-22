@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   background-color: black;
+   color: whitesmoke;
+}
+
+h1{
+    background-color: rgb(228, 96, 147);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 4rem;
+    line-height: 4rem;
+}
+img{
+    height: 180px;
+    width: 180px;
+}
+.choices{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice:hover{
+    opacity: 50%;
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#msg{
+    background-color: aquamarine;
+    width: 18rem;
+    height: 3rem;
+    line-height: 3rem;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(5, 5, 5);
+    
+    font-size: 24px;
+}
+.msg-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
